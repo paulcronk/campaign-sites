@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2017-03-20 09:47:37",
+    "exportTime": "2017-09-27 12:53:12",
     "containerVersion": {
         "path": "accounts/418201926/containers/2489351/versions/0",
         "accountId": "418201926",
@@ -15,7 +15,7 @@
             "usageContext": [
                 "WEB"
             ],
-            "fingerprint": "1487091786455",
+            "fingerprint": "1506001397093",
             "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/418201926/containers/2489351/workspaces?apiLink=container"
         },
         "tag": [
@@ -33,17 +33,7 @@
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "doubleClick",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setTrackerName",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "useDebugVersion",
+                        "key": "overrideGaSettings",
                         "value": "false"
                     },
                     {
@@ -57,9 +47,9 @@
                         "value": "TRACK_EVENT"
                     },
                     {
-                        "type": "BOOLEAN",
-                        "key": "enableLinkId",
-                        "value": "false"
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GA property settings - EDIT THIS}}"
                     },
                     {
                         "type": "TEMPLATE",
@@ -70,21 +60,35 @@
                         "type": "TEMPLATE",
                         "key": "eventLabel",
                         "value": "{{Click Text}}"
+                    }
+                ],
+                "fingerprint": "1506001132784",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "tagId": "8",
+                "name": "Call YouTube API",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script src=\"https://www.youtube.com/iframe_api\">"
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "enableEcommerce",
+                        "key": "supportDocumentWrite",
                         "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "trackingId",
-                        "value": "{{GA Tracking ID}}"
                     }
                 ],
-                "fingerprint": "1471432636568",
+                "fingerprint": "1506000927995",
                 "firingTriggerId": [
-                    "14"
+                    "2147479553"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -102,17 +106,7 @@
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "doubleClick",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setTrackerName",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "useDebugVersion",
+                        "key": "overrideGaSettings",
                         "value": "false"
                     },
                     {
@@ -126,9 +120,9 @@
                         "value": "TRACK_EVENT"
                     },
                     {
-                        "type": "BOOLEAN",
-                        "key": "enableLinkId",
-                        "value": "false"
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GA property settings - EDIT THIS}}"
                     },
                     {
                         "type": "TEMPLATE",
@@ -139,19 +133,9 @@
                         "type": "TEMPLATE",
                         "key": "eventLabel",
                         "value": "{{Click Classes}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableEcommerce",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "trackingId",
-                        "value": "{{GA Tracking ID}}"
                     }
                 ],
-                "fingerprint": "1472572982278",
+                "fingerprint": "1506001149509",
                 "firingTriggerId": [
                     "6",
                     "17",
@@ -174,17 +158,7 @@
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "doubleClick",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setTrackerName",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "useDebugVersion",
+                        "key": "overrideGaSettings",
                         "value": "false"
                     },
                     {
@@ -198,9 +172,9 @@
                         "value": "TRACK_EVENT"
                     },
                     {
-                        "type": "BOOLEAN",
-                        "key": "enableLinkId",
-                        "value": "false"
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GA property settings - EDIT THIS}}"
                     },
                     {
                         "type": "TEMPLATE",
@@ -211,117 +185,14 @@
                         "type": "TEMPLATE",
                         "key": "eventLabel",
                         "value": "{{Click Text}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableEcommerce",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "trackingId",
-                        "value": "{{GA Tracking ID}}"
                     }
                 ],
-                "fingerprint": "1471432655467",
+                "fingerprint": "1506001164110",
                 "firingTriggerId": [
                     "12"
                 ],
                 "blockingTriggerId": [
                     "14"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT"
-            },
-            {
-                "accountId": "418201926",
-                "containerId": "2489351",
-                "tagId": "3",
-                "name": "Push YouTube video player states into datalayer",
-                "type": "html",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "html",
-                        "value": "<!-- script taken from https://www.optimizesmart.com/youtube-video-tracking-via-google-tag-manager/ -->\n\n<script>\n//enable the JavaScript API for an embedded player\nfor (var e = document.getElementsByTagName(\"iframe\"), x = e.length; x--;)\n  if (/youtube.com\\/embed/.test(e[x].src))\n     if(e[x].src.indexOf('enablejsapi=') === -1)\n        e[x].src += (e[x].src.indexOf('?') ===-1 ? '?':'&') + 'enablejsapi=1';\n\nvar gtmYTListeners = []; // support multiple players on the same page\n// attach our YT listener once the API is loaded\nfunction onYouTubeIframeAPIReady() {\n    for (var e = document.getElementsByTagName(\"iframe\"), x = e.length; x--;) {\n        if (/youtube.com\\/embed/.test(e[x].src)) {\n            gtmYTListeners.push(new YT.Player(e[x], {\n                events: {\n                    onStateChange: onPlayerStateChange,\n                    onError: onPlayerError\n                }\n            }));\n            YT.gtmLastAction = \"p\";\n        }\n    }\n}\n\n// listen for play, pause and end states\n// also report % played every second\nfunction onPlayerStateChange(e) {\n    e[\"data\"] == YT.PlayerState.PLAYING && setTimeout(onPlayerPercent, 1000, e[\"target\"]);\n    var video_data = e.target[\"getVideoData\"](),\n        label = video_data.title;\n\t\t// Get title of the current page\n        var pageTitle = document.title;\n    if (e[\"data\"] == YT.PlayerState.PLAYING && YT.gtmLastAction == \"p\") {\n\t    label = \"Video Played - \" + video_data.title;\n        dataLayer.push({\n            'event': 'youtube',\n\t\t    'eventCategory': 'Youtube Videos',\n\t\t\t'eventAction': pageTitle,\n            'eventLabel': label\n        });\n        YT.gtmLastAction = \"\";\n    }\n    if (e[\"data\"] == YT.PlayerState.PAUSED) {\n\tlabel = \"Video Paused - \" + video_data.title;\n        dataLayer.push({\n            'event': 'youtube',\n\t\t\t'eventCategory': 'Youtube Videos',\n            'eventAction': pageTitle,\n            'eventLabel': label\n        });\n        YT.gtmLastAction = \"p\";\n    }\n\t\n}\n\n// catch all to report errors through the GTM data layer\n// once the error is exposed to GTM, it can be tracked in UA as an event!\nfunction onPlayerError(e) {\n    dataLayer.push({\n        'event': 'error',\n\t\t'eventCategory': 'Youtube Videos',\n        'eventAction': 'GTM',\n        'eventLabel': \"youtube:\" + e[\"target\"][\"src\"] + \"-\" + e[\"data\"]\n    })\n}\n\n// report the % played if it matches 0%, 25%, 50%, 75% or completed\nfunction onPlayerPercent(e) {\n    if (e[\"getPlayerState\"]() == YT.PlayerState.PLAYING) {\n        var t = e[\"getDuration\"]() - e[\"getCurrentTime\"]() <= 1.5 ? 1 : (Math.floor(e[\"getCurrentTime\"]() / e\n\n[\"getDuration\"]() * 4) / 4).toFixed(2);         if (!e[\"lastP\"] || t > e[\"lastP\"]) {\n            var video_data = e[\"getVideoData\"](),\n                label = video_data.title;\n\t\t\t\t// Get title of the current page\n                var pageTitle = document.title;\n            e[\"lastP\"] = t;\n\t\t\tlabel = t * 100 + \"% Video played - \" + video_data.title;\n            dataLayer.push({\n                'event': 'youtube',\n\t\t\t\t'eventCategory': 'Youtube Videos',\n                'eventAction': pageTitle,\n                'eventLabel': label\n            })\n        }\n        e[\"lastP\"] != 1 && setTimeout(onPlayerPercent, 1000, e);\n    }\n}\n\n// load the Youtube JS api and get going\nvar j = document.createElement(\"script\"),\n    f = document.getElementsByTagName(\"script\")[0];\nj.src = \"//www.youtube.com/iframe_api\";\nj.async = true;\nf.parentNode.insertBefore(j, f);\n</script>"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "supportDocumentWrite",
-                        "value": "false"
-                    }
-                ],
-                "fingerprint": "1470913184936",
-                "firingTriggerId": [
-                    "9"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT"
-            },
-            {
-                "accountId": "418201926",
-                "containerId": "2489351",
-                "tagId": "4",
-                "name": "Send YouTube player states as events to GA",
-                "type": "ua",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "nonInteraction",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "doubleClick",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setTrackerName",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "useDebugVersion",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "eventCategory",
-                        "value": "{{Pull eventCategory from datalayer}}"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "trackType",
-                        "value": "TRACK_EVENT"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableLinkId",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "eventAction",
-                        "value": "{{Pull eventAction from datalayer}}"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "eventLabel",
-                        "value": "{{Pull eventLabel from datalayer}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableEcommerce",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "trackingId",
-                        "value": "{{GA Tracking ID}}"
-                    }
-                ],
-                "fingerprint": "1470910369654",
-                "firingTriggerId": [
-                    "10"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
@@ -334,22 +205,7 @@
                 "parameter": [
                     {
                         "type": "BOOLEAN",
-                        "key": "doubleClick",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setTrackerName",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "useDebugVersion",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "useHashAutoLink",
+                        "key": "overrideGaSettings",
                         "value": "false"
                     },
                     {
@@ -358,29 +214,63 @@
                         "value": "TRACK_PAGEVIEW"
                     },
                     {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GA property settings - EDIT THIS}}"
+                    }
+                ],
+                "fingerprint": "1506000976176",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "tagId": "7",
+                "name": "Video tracking",
+                "type": "ua",
+                "parameter": [
+                    {
                         "type": "BOOLEAN",
-                        "key": "decorateFormsAutoLink",
+                        "key": "nonInteraction",
                         "value": "false"
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "enableLinkId",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableEcommerce",
+                        "key": "overrideGaSettings",
                         "value": "false"
                     },
                     {
                         "type": "TEMPLATE",
-                        "key": "trackingId",
-                        "value": "{{GA Tracking ID}}"
+                        "key": "eventCategory",
+                        "value": "YouTube video"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GA property settings - EDIT THIS}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Get video state}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Video Title}} -{{Video URL}}"
                     }
                 ],
-                "fingerprint": "1470907595398",
+                "fingerprint": "1506000883388",
                 "firingTriggerId": [
-                    "2147479553"
+                    "23"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT"
             }
@@ -569,159 +459,119 @@
             {
                 "accountId": "418201926",
                 "containerId": "2489351",
-                "triggerId": "10",
-                "name": "Pages where YouTube player states were tracked",
-                "type": "CUSTOM_EVENT",
-                "customEventFilter": [
+                "triggerId": "23",
+                "name": "YouTube videos",
+                "type": "YOU_TUBE_VIDEO",
+                "fingerprint": "1506000785417",
+                "parameter": [
                     {
-                        "type": "EQUALS",
-                        "parameter": [
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg0",
-                                "value": "{{_event}}"
-                            },
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg1",
-                                "value": "youtube"
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1470910226672"
-            },
-            {
-                "accountId": "418201926",
-                "containerId": "2489351",
-                "triggerId": "9",
-                "name": "Pages which have YouTube embedded videos",
-                "type": "DOM_READY",
-                "filter": [
+                        "type": "TEMPLATE",
+                        "key": "progressThresholdsPercent",
+                        "value": "25,50,75,100"
+                    },
                     {
-                        "type": "EQUALS",
-                        "parameter": [
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg0",
-                                "value": "{{YouTube video embedded on page}}"
-                            },
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg1",
-                                "value": "true"
-                            }
-                        ]
+                        "type": "BOOLEAN",
+                        "key": "captureComplete",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureStart",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fixMissingApi",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "radioButtonGroup1",
+                        "value": "PERCENTAGE"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "capturePause",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureProgress",
+                        "value": "true"
                     }
-                ],
-                "fingerprint": "1470909797438"
+                ]
             }
         ],
         "variable": [
             {
                 "accountId": "418201926",
                 "containerId": "2489351",
-                "variableId": "1",
-                "name": "GA Tracking ID",
-                "type": "c",
+                "variableId": "6",
+                "name": "GA property settings - EDIT THIS",
+                "type": "gas",
                 "parameter": [
                     {
                         "type": "TEMPLATE",
-                        "key": "value",
-                        "value": "UA-23066786-2"
-                    }
-                ],
-                "fingerprint": "1470907575184"
-            },
-            {
-                "accountId": "418201926",
-                "containerId": "2489351",
-                "variableId": "4",
-                "name": "Pull eventAction from datalayer",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
+                        "key": "cookieDomain",
+                        "value": "auto"
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "setDefaultValue",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
                         "value": "false"
                     },
                     {
                         "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "eventAction"
+                        "key": "trackingId",
+                        "value": "UA-38052350-2"
                     }
                 ],
-                "fingerprint": "1470910122562"
+                "fingerprint": "1506001202739"
             },
             {
                 "accountId": "418201926",
                 "containerId": "2489351",
-                "variableId": "3",
-                "name": "Pull eventCategory from datalayer",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "eventCategory"
-                    }
-                ],
-                "fingerprint": "1470910082776"
-            },
-            {
-                "accountId": "418201926",
-                "containerId": "2489351",
-                "variableId": "5",
-                "name": "Pull eventLabel from datalayer",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "eventLabel"
-                    }
-                ],
-                "fingerprint": "1470910155276"
-            },
-            {
-                "accountId": "418201926",
-                "containerId": "2489351",
-                "variableId": "2",
-                "name": "YouTube video embedded on page",
+                "variableId": "7",
+                "name": "Get video state",
                 "type": "jsm",
                 "parameter": [
                     {
                         "type": "TEMPLATE",
                         "key": "javascript",
-                        "value": "// Return \"true\" if YouTube video is embedded on a web page otherwise false\nfunction () {\n    for (var e = document.getElementsByTagName('iframe'), x = e.length; x--;)\n        if (/youtube.com\\/embed/.test(e[x].src)) return true;\n    return false;\n}"
+                        "value": "// This translates video status into some more meaningful Event Action labels\nfunction() {\n  var status = {{Video Status}};\n  switch (status) {\n    case 'start':\n      return 'Start playing';\n    case 'pause':\n      return 'Pause';\n    case 'buffering':\n      return 'Buffering';\n    case 'progress':\n      return 'Reached ' + {{Video Percent}} + '%';\n    case 'complete':\n      return 'Reached the end';\n  }\n}"
                     }
                 ],
-                "fingerprint": "1470909721222"
+                "fingerprint": "1506000669641"
             }
         ],
         "builtInVariable": [
@@ -790,6 +640,54 @@
                 "containerId": "2489351",
                 "type": "CLICK_TEXT",
                 "name": "Click Text"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_PROVIDER",
+                "name": "Video Provider"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_URL",
+                "name": "Video URL"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_TITLE",
+                "name": "Video Title"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_DURATION",
+                "name": "Video Duration"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_PERCENT",
+                "name": "Video Percent"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_VISIBLE",
+                "name": "Video Visible"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_STATUS",
+                "name": "Video Status"
+            },
+            {
+                "accountId": "418201926",
+                "containerId": "2489351",
+                "type": "VIDEO_CURRENT_TIME",
+                "name": "Video Current Time"
             }
         ],
         "fingerprint": "0",
