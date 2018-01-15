@@ -18,6 +18,7 @@ The container is set up to record pageviews and a range of events. These events 
 * clicks on any hidden help sections
 * clicks on buttons
 * use of any embedded video - this includes play, pause, and progress through the video
+* scrolling on the page. Default 25, 50, 75 & 100%
 
 ## Further customisation
 You may need to customise the container further. For example, to add Floodlight tracking, or Twitter cards, Facebook Pixel tracking etc.
